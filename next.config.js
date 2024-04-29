@@ -1,8 +1,12 @@
+const debug = process.env.NODE_ENV !== "production";
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
   output: "export",
-  images: { unoptimized: true, path: "docs" }
+  assetPrefix: !debug ? 'https://reconecto.com' : '',
+  images: { unoptimized: true,  }
 }
+
 
 module.exports = nextConfig
