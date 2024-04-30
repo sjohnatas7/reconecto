@@ -17,7 +17,7 @@ function IndexPage() {
       {/* <TrustedBy></TrustedBy> */}
       <Beneficios></Beneficios>
       <CPA></CPA>
-      {/* <AccordionFAQ></AccordionFAQ> */}
+      <AccordionFAQ></AccordionFAQ>
       <FormSection></FormSection>
       <Footer></Footer>
       <WhatsappIcon></WhatsappIcon>
