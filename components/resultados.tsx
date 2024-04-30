@@ -78,16 +78,16 @@ export default function Resultados() {
       </div>
       <div className="grid w-full grid-cols-2 gap-4 sm:px-16 md:w-1/2 md:grid-cols-1 md:px-12 lg:size-full lg:grid-cols-2 lg:px-8">
         <GridImages
-          src="Indicações/Autismo 1.jpg"
+          src="Indicações/Autismo-1.webp"
           alt="Criança com autismo"
         ></GridImages>
         <GridImages
-          src="Indicações/Autismo 2.jpg"
+          src="Indicações/Autismo-2.webp"
           alt="Criança com autismo"
         ></GridImages>
-        <GridImages src="Indicações/AVC.jpg" alt="AVC"></GridImages>
+        <GridImages src="Indicações/AVC.webp" alt="AVC"></GridImages>
         <GridImages
-          src="Indicações/Paraplegia.jpg"
+          src="Indicações/Paraplegia.webp"
           alt="Paraplegia"
         ></GridImages>
       </div>

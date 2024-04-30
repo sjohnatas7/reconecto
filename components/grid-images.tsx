@@ -26,8 +26,8 @@ export default function GridImages({ src, alt }: TImage) {
         src={`/imagens/${src}`}
         alt={alt}
         className="h-full rounded-lg object-cover"
-        width={500}
-        height={500}
+        width={250}
+        height={250} 
       />
   )
 }

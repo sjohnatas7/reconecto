@@ -23,7 +23,7 @@ export default function OQue() {
     <div className="flex flex-col items-center justify-center md:flex-row md:space-x-10 ">
       <div className="mb-5 flex w-full items-center md:w-1/3 md:items-start">
         <Image
-          src="/imagens/comoFunciona.jpg"
+          src="/imagens/comoFunciona.webp"
           alt="Imagem"
           className="rounded-lg"
           width={500}
