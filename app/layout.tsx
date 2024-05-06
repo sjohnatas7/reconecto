@@ -35,6 +35,9 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <html lang="en" suppressHydrationWarning>
         <Head
         >
+          
+          <GoogleAnalytics gaId="GTM-P9Q8WT7J"></GoogleAnalytics>
+
           <title>RECONECTO</title>
         
         </Head>
@@ -48,6 +51,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         >
           <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P9Q8WT7J"
 height="0" width="0" style={{display: 'none', visibility: 'hidden'}}></iframe></noscript>
+
           <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
             <div className="relative flex min-h-screen flex-col">
               <SiteHeader />
@@ -56,7 +60,6 @@ height="0" width="0" style={{display: 'none', visibility: 'hidden'}}></iframe></
             <TailwindIndicator />
           </ThemeProvider>
         </body>
-        <GoogleAnalytics gaId="GTM-P9Q8WT7J"></GoogleAnalytics>
       </html>
     </>
   )
