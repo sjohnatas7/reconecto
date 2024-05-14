@@ -32,11 +32,10 @@ export default function RootLayout({ children }: RootLayoutProps) {
     <>
       <html lang="en" suppressHydrationWarning>
         <Head>
-
           <title>RECONECTO</title>
+          <GoogleTagManager gtmId="GTM-P9Q8WT7J"></GoogleTagManager>
         </Head>
 
-        <GoogleTagManager gtmId="GTM-P9Q8WT7J"></GoogleTagManager>
         <body
           className={cn(
             "min-h-screen bg-background font-sans antialiased",
