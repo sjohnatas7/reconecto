@@ -4,7 +4,6 @@ import { Accordion, AccordionItem } from "@nextui-org/react"
 
 
 export function AccordionFAQ() {
-  const [selectedKeys, setSelectedKeys] = useState(new Set(["1"]))
 
   return (
     <section className="bg-primary py-8">
@@ -15,9 +14,7 @@ export function AccordionFAQ() {
           variant="bordered"
           selectionMode="multiple"
           className="w-full p-5 text-white"
-          selectedKeys={selectedKeys}
           // onSelectionChange={setSelectedKeys}
-          onSelectionChange={(keys: Set<string>) => setSelectedKeys(keys)}
         >
           <AccordionItem
             value="item-1"
