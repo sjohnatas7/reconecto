@@ -32,7 +32,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
     <>
       <html lang="en" suppressHydrationWarning>
         <Head>
-          <GoogleTagManager gtmId="GTM-P9Q8WT7J"></GoogleTagManager>
           <title>RECONECTO</title>
         </Head>
 
@@ -59,6 +58,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
             <TailwindIndicator />
           </ThemeProvider>
         </body>
+        <GoogleTagManager gtmId="GTM-P9Q8WT7J"></GoogleTagManager>
       </html>
     </>
   )
