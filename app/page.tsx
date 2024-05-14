@@ -1,12 +1,12 @@
 import TitulePage from "@/components/titule"
 import ExplicacaoSection from "@/components/explicacao"
-import TrustedBy from "@/components/carroselLogos"
+// import TrustedBy from "@/components/carroselLogos"
 import Beneficios from "@/components/beneficios"
 import CPA from "@/components/cpa"
 import Footer from "@/components/footer"
 import FormSection from "@/components/forms"
 import WhatsappIcon from "@/components/whatsapp"
-import { AccordionFAQ } from "@/components/accordion-faq"
+// import { AccordionFAQ } from "@/components/accordion-faq"
 
 function IndexPage() {
  
