@@ -87,6 +87,16 @@ module.exports = {
       },
     },
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [
+    require("tailwindcss-animate"),
+    function ({ addUtilities }) {
+      const newUtilities = {
+        '.bg-pos-x-80': {
+          'background-position-x': '80%',
+        },
+      };
+
+      addUtilities(newUtilities, ['responsive', 'hover']);
+    },],
 }
 

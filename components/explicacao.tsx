@@ -23,7 +23,7 @@ export default function ExplicacaoSection() {
         <div className={`text-center`}>
           <h2
             style={{ display: "inline-block" }}
-            className={`hero mb-3 px-0 text-center text-4xl font-bold ${
+            className={`hero mb-3 px-0 text-center text-3xl  font-bold md:text-4xl ${
               isAnimated ? "loaded" : "invisible"
             }`}
           >

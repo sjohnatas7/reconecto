@@ -17,7 +17,7 @@ export default function TitulePage() {
     setIsAnimated(true)
   }
   return (
-      <section className="flex min-h-screen items-center" style={{backgroundImage: 'url("/imagens/Home 2.webp")', backgroundSize: 'cover', backgroundPosition: 'right'}} id="titulo">
+      <section className="flex min-h-screen items-center bg-pos-x-80 md:bg-center" style={{backgroundImage: 'url("/imagens/Home 2.webp")', backgroundSize: 'cover'}} id="titulo">
 
       <div className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
         <div className="mb-0 flex max-w-[800px] flex-col items-start gap-2">
