@@ -1,8 +1,7 @@
 import "@/styles/globals.css"
 import { Metadata } from "next"
 import Head from "next/head"
-import Script from "next/script"
-import { GoogleAnalytics } from "@next/third-parties/google"
+import { GoogleTagManager } from "@next/third-parties/google"
 
 import { siteConfig } from "@/config/site"
 import { fontSans } from "@/lib/fonts"
@@ -37,6 +36,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
           <title>RECONECTO</title>
         </Head>
 
+        <GoogleTagManager gtmId="GTM-P9Q8WT7J"></GoogleTagManager>
         <body
           className={cn(
             "min-h-screen bg-background font-sans antialiased",
@@ -59,7 +59,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
             </div>
             <TailwindIndicator />
           </ThemeProvider>
-          <GoogleAnalytics gaId="GTM-P9Q8WT7J"></GoogleAnalytics>
         </body>
       </html>
     </>
