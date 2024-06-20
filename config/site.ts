@@ -28,6 +28,6 @@ export const siteConfig = {
   ],
   links: {
     instagram: "https://www.instagram.com/reconecto.neuromodulacao?igsh=MXZ5d2k4NjI2bXd6dA==",
-    whatsapp: "https://wa.me/5519993154593?text=Eu%20quero%20saber%20mais%20do%20tratamento%20da%20ReconecTO!",
+    whatsapp: "https://wa.me/5511937395568?text=Eu%20quero%20saber%20mais%20do%20tratamento%20da%20ReconecTO!",
   },
 }
