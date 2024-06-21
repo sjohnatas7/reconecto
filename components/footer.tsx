@@ -57,8 +57,7 @@ export default function Footer() {
                 reconectoneuromodulacao@gmail.com
               </a>
             </li>
-            <li>Telefone: (19) 99315-4593</li>
-            <li>Telefone: (14) 98118-5376</li>
+            <li>Telefone: (11) 93739-5568</li>
           </ul>
         </div>
         <div className="flex flex-col items-center">
